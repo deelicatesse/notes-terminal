@@ -122,9 +122,6 @@ class Task:
 
   
     def manager(self, is_unlocked, notes):
-        """
-        docstring
-        """
         
         theme= self.select_theme()
         bg= self.fill_bg()
